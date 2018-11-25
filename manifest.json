@@ -22,6 +22,5 @@
   "permissions": [
     "storage"
   ],
-  "homepage_url": "https://www.0xfc.cn",
-  "web_accessible_resources": ["inject.js"]
+  "homepage_url": "https://github.com/feichao/whynotkeys"
 }

@@ -39,7 +39,7 @@
   let timer = null;
   let isOk = false;
   document.addEventListener('keydown', function (event) {
-    const key = event.key.toUpperCase();
+    const key = event.key && event.key.toUpperCase();
     const keyCode = event.keyCode;
     if (isOk) {
       shorcutKeys.push(key);

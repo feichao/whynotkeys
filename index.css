@@ -1,0 +1,54 @@
+#--shortcut-keys-wrapper-- {
+  background: rgba(0, 0, 0, .01);
+  /* bottom: 0; */
+  display: none;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 99999;
+}
+
+#--shortcut-keys-content-- {
+  background: rgba(0, 0, 0, .12);
+  padding: 4px;
+  text-align: center;
+}
+
+#--shortcut-keys-content-->p {
+  color: #333;
+  font-size: 14px;
+  margin: 4px 0;
+}
+
+#--shortcut-keys-content-->input {
+  border: 1px solid#999;
+  border-radius: 2px;
+  font-size: 14px;
+  line-height: 24px;
+  min-width: 480px;
+  outline: none;
+  padding: 0 4px;
+  text-align: center;
+}
+
+#--shortcut-keys-content-->input::-webkit-input-placeholder {
+  color: #bbb;
+}
+
+button + .--shortcuts-keys--, a + .--shortcuts-keys--,
+input[type=button] + .--shortcuts-keys--, input[type=submit] + .--shortcuts-keys-- {
+  background: rgba(255, 255, 0, .9);
+  border: 1px dashed blue;
+  border-radius: 2px;
+  color: blue;
+  display: block;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 0 2px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translate3d(0, -30%, 0);
+}

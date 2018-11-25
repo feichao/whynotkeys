@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "why not keys",
+  "version": "1.0.0",
+  "description": "Keys ererywhere",
+  "icons":{
+		"16": "fav.png",
+		"48": "fav.png",
+		"128": "fav.png"
+	},
+  "browser_action": {
+    "default_icon": "fav.png",
+    "default_title": "Keys ererywhere",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [{
+    "matches": ["http://*/*", "https://*/*"],
+    "js": ["inject.js", "keys.js", "index.js"],
+    "css": ["index.css"],
+    "run_at": "document_start"
+  }],
+  "permissions": [
+    "storage"
+  ],
+  "homepage_url": "https://www.0xfc.cn",
+  "web_accessible_resources": ["inject.js"]
+}

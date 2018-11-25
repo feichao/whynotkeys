@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>WhyNotKyes Popup Page</title>
+  <script src="inject.js"></script>
+  <script src="popup.js"></script>
+  <style>
+    body {
+      margin: 8px 8px 16px;
+    }
+
+    p {
+      white-space: nowrap;
+    }
+
+    .tip {
+      font-size: 16px;
+      margin: 0;
+    }
+
+    .tips-tip {
+      color: #999;
+      font-size: 12px;
+      margin: 2px 0 4px 0;
+    }
+
+    .footer {
+      margin: 4px 0;
+      overflow: hidden;
+    }
+
+    .tips-err-tip {
+      color: red;
+      opacity: 0;
+    }
+
+    #shortcut-value {
+      border: 1px dashed#999;
+      border-radius: 2px;
+      font-size: 14px;
+      line-height: 24px;
+      outline: none;
+      padding: 0 4px;
+      resize: none;
+    }
+
+    #shortcut-default-btn {
+      background: #fff;
+      border: none;
+      border-radius: 2px;
+      cursor: pointer;
+      float: right;
+      text-decoration: underline;
+      outline: none;
+      padding: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <p class="tip">Set Your Shortcut Keys</p>
+  <p class="tips-tip">Press the keyboard directly</p>
+  <textarea id="shortcut-value" readonly>Control + Control</textarea>
+  <div class="footer">
+    <span id="shortcut-err-tip" class="tips-err-tip">2 keys at lease</span>
+    <button id="shortcut-default-btn">Reset</button>
+  </div>
+</body>
+
+</html>

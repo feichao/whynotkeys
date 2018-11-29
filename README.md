@@ -1,7 +1,7 @@
 # whynotkeys
 ### Chrome Extension. Use keyboard everywhere.
 
-1. install the extension.
+1. install the extension [Get it][3].
 
 2. set you own Shortcut Keys.
 ![screenshot-1][1]
@@ -16,3 +16,4 @@
 
   [1]: https://raw.githubusercontent.com/feichao/whynotkeys/master/assets/screenshot-1.jpg
   [2]: https://raw.githubusercontent.com/feichao/whynotkeys/master/assets/screenshot-2.jpg
+  [3]: https://chrome.google.com/webstore/detail/why-not-keys/oanbjedaejkmdbgggefonekmppcaiknf/related
